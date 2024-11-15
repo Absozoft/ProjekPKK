@@ -10,18 +10,19 @@
         width: 100%;
         height: 80px;
         padding: 10px;
-        background-color: rgb(34, 29, 23);
+        background-color: rgb(77, 65, 52);
         display: flex;
         justify-content: space-between;
+        position: fixed;
     }
     .navbar div{
         height: 100%;
-        background-color: rgb(34, 29, 23);
+        background-color: rgb(77, 65, 52);
     }
     .navbar .logo{
         width: 300px;
         padding: 0;
-        background-color: rgb(34, 29, 23);
+        background-color: rgb(77, 65, 52);
         display: flex;
         justify-content: center;
         object-fit:contain
@@ -60,7 +61,7 @@
         margin-left: 100px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 0;
-        margin-top: 0;
+        margin-top: -30px;
     }
     /* Tombol Untuk Pesanan */
     .header .btn{
@@ -104,7 +105,7 @@
     }
 
     .menu-parent .balls:hover{
-        background-color: rgb(24, 20, 16);
+        background-color: rgb(61, 52, 41);
         padding: 25px;
         border-radius: 2vmin;
         transition: 0.3s;
@@ -116,15 +117,20 @@
     }
     .header .poto .cireng{
         margin-left: 14%;
-        margin-top: 50px;
+        margin-top: 160px;
         border-radius: 10px;
         width: 650px;
+        box-shadow: 2px 4px 10px black ;
     }
     body{
         margin: 0;
+        background-size: cover;
+    }
+    .header .pesan{
+        margin-top: 110px;
     }
 </style>
-<body background="background.jpg">
+<body background="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/72d9717d-2ba6-4008-bd25-ceb6d49b5f40/dbaepnm-a487d26c-d8c0-4bd7-8a42-17d2d79b97fa.png/v1/fill/w_1249,h_640,q_70,strp/sunlit_mountainside_mspaint_background__large__by_birritan_dbaepnm-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQwIiwicGF0aCI6IlwvZlwvNzJkOTcxN2QtMmJhNi00MDA4LWJkMjUtY2ViNmQ0OWI1ZjQwXC9kYmFlcG5tLWE0ODdkMjZjLWQ4YzAtNGJkNy04YTQyLTE3ZDJkNzliOTdmYS5wbmciLCJ3aWR0aCI6Ijw9MTY0MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.c1E35QAURBY1qRWoYReORZsXgKhxwiysQuxutSTsU8U">
     <div class="navbar">
         <div class="logo">
             <img src="logocireng.png" class="cireng">
@@ -141,9 +147,11 @@
     </div>
     <div class="header">
         <div class="namaproduk">
+            <div class="pesan">
             <img class="logo2" src="logocireng.png">
             <h1>CIRENG AYAM SUWIR</h1>
             <a href="" class="btnn"><button class="btn" href="">PESAN SEKARANG</button></a>
+            </div>
         </div>
         <div class="poto">
             <img src="cirengswir.png" class="cireng">
