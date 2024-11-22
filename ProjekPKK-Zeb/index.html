@@ -10,7 +10,7 @@
     <style>
         body{
             margin: 0;
-            background-size: 100% 50%;
+            background-size: 100% 60%;
             background-repeat: no-repeat;
         }
         /* Navigation Bar */
@@ -141,7 +141,7 @@
         .wave{
             width: 100%;
             background-color: #996a37;
-            height: 800px;
+            height: 600px;
             margin-top: -10px;
             text-align: center;
         }
@@ -157,11 +157,12 @@
             font-size: 35px;
             margin-left: auto;
             margin-right: auto;
+            
         }
         /* Testimoni & Review */
         .testimoni{
             width:  1200px;
-            height: 500px;
+            height: 400px;
             margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
@@ -180,9 +181,14 @@
             box-shadow: 1px 1px 15px;
             padding-right: 10px;
         }
+        .testimoni .review:hover{
+            transform: scale(1.09);
+            transition: 0.5s;
+        }
         .testimoni .ketiga{
             margin-top: 100px;
         }
+        /* Review Pfp */
         .review .pfp{
             margin-top: 15px;
             height: 110px;
@@ -192,6 +198,7 @@
             padding: 15px;
             border-radius: 100px;
         }
+        /* Nama dan kometar */
         .review .namapelanggan h1{
             font-size: 18px;
             color: black;
@@ -205,6 +212,7 @@
             text-align: justify;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+        /* Rating */
         .rating{
             margin-left: -150px;
             margin-top: 20px;
@@ -212,6 +220,16 @@
         }
         .checked{
             color: orange;
+        }
+        .curve2{
+            margin-top: -10px;
+            background-color: #996a37;
+        }
+        .wave2 {
+            width: 100%;
+            background-color: #714e29;
+            height: 500px;
+            margin-top: -10px;
         }
     </style>
 </head>
@@ -307,7 +325,27 @@
                 </div>
             </div>
         </div>
-
+        <div class="curve2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#714e29" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,154.7C384,171,480,245,576,277.3C672,309,768,299,864,256C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+              </svg>
+              <div class="wave2">
+                <div>
+                    
+                </div>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="664" height="444" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.+Baladewa+West+Cikampek%2C+Cikampek%2C+Karawang%2C+West+Java+41373%2C+Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">                          
+                        </iframe>
+                        <a href="https://textcaseconvert.com"></a>
+                        <br>
+                        <a href="https://www.tabclocktab.com"></a>
+                        <br>
+                        <style>.mapouter{position: relative;text-align: right;height: 444px;width: 664px;}</style><a href="https://www.ongooglemaps.com">google maps html code</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 444px;width: 664px;}</style>
+                    </div>
+                </div>
+              </div>
+        </div>
     </div>
 </div>
 </body>
